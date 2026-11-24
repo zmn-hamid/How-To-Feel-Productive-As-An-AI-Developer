@@ -1,0 +1,176 @@
+For various reasons, many of us developers have decided to delegate all coding to AI. Some believe it's the ultimate best thing to do, some are skeptical, and some even disagree with it but are ultimately forced to do so (by the market, the manager, etc.).
+
+Whether or not this new workflow is good is another matter. Personally, I'm close to the third type of developer. I don't think it's quite wise to delegate all coding to AI, and I've written a [whole book](https://genai-book.kyrovert.com/) about it, but I'm not that strict either. I am flexible about change, and due to many reasons, I had to commit to AI development and delegate all coding (and even reading) to AI. For personal projects, I most likely won't do that.
+
+This article is not only about how to handle AI work psychologically; I have also provided some practical techniques that increase your productivity and quality of life. These are based on my personal experiences working with AI. Since I'm more familiar with this in web development, I might give you examples or suggestions that fit web developers more, but you can also use the techniques for any job you have. Some (if not most) of the techniques are not even limited to software, but can be applied to any AI-native job.
+
+## Why AI Development Burns You Out
+
+Regardless of whether we agree with AI development or not, all three types of developers are facing the same problems: it feels extremely exhausting to work with AI. You may have heard a thousand times that AI has made our work go to a higher level: from coder to manager. And this argument is the perfect example of why AI development is tiring. For that, I have to quote the one and only GabeN:
+
+> "Management is a skill, not a career path... It very much is a service job. It's like, my job is to entirely define myself in terms of productivity that I enable in other people... It's a very stressful job and it's hard to measure your own productivity."
+> 
+> - Gabe Newell, 2013, https://youtu.be/Td_PGkfIdIQ
+
+This is precisely what's happening to us. It may not be as stressful as managing real people (though you're still responsible for the product), but it also doesn't have the benefits of working with real people (you don't really learn how to work with people, you only learn how to work with agents, which is... sad.) One might argue it's actually worse than managing real people, because you can't really point at your agents and say "look how productive they are"; you can't see them growing in their life, being thankful to you, becoming your friends due to how good of a manager you are, celebrating your birthday or anything. It's easier to recognize your value when the person you're responsible for is telling you himself/herself how impactful you were; whilst for agents, well, you're on your own.
+
+If you were a programmer before AI, it is probably even worse for you: knowing what development used to look like and having to let go of many of your workflows and do things you might feel "anyone can do" or "are risky." And it's not as if you've been proven wrong. Even as I'm writing this in November 2026, many veteran programmers pretty much hate using AI for anything more than a Google search (if we factor out those who hate AI for "theft"). One of the clearest examples I can think of is Jonathan Blow.
+
+One of the most fundamental things in human nature is that we seek productivity. Depression is literally defined by and experienced as a lack of interest in being productive. The more you're depressed, the more you do nothing and rot in your bed. One of the reasons you might struggle to sleep at night (tossing and turning) is that you haven't been productive all day; now your body thinks you still don't deserve rest. But if you work for just half an hour before bedtime, you'll be much more comfortable sleeping.
+
+If you feel unproductive using AI, it will impact not only your personal life but also your work life. It might also introduce fear of losing your job. In the end, you feel extremely exhausted by all the negative feelings, which causes more unproductivity, and the vicious cycle continues.
+
+## The Hard Truths
+
+Some of the sources of exhaustion in AI development come from the very nature of it. It's not that all of it is on you; some aspects of your work itself are really hard to navigate, and I'm pretty much aware of that. As a matter of fact, I have struggled and continue to struggle with this topic. I have found some solutions (hence why I'm writing this article), but in the end, I have to try so hard to keep my mental health in check.
+
+I'll try to give you remedies for these, showing you techniques that can reduce or hopefully eradicate these problems for you. But it might also be different for you. I try to keep my suggestions as generic as I can.
+
+### 1. Cognitively Heavy
+
+One of the reasons why AI development feels exhausting is that, as a developer, your job has become much more cognitively intense. Back then, you could do some engineering and go mostly on autopilot while coding. There were short (or sometimes long) periods of decision-making, and the rest was just pure coding and trying to keep things in check according to whatever you had planned. I'm not saying that those "autopilot" sessions were free of thinking or unimportant, but they weren't anywhere near as heavy for your brain.
+
+Now, your job is to constantly engineer and design systems. You don't get to rest; you're constantly making decisions. It was already pretty hard and stressful back then; now it's even worse, when code is considered cheap.
+
+### 2. Cognitively Empty
+
+Funnily enough, it's also cognitively empty. You decide on something, and the rest is struggling with the agent to get it to understand you. It's not particularly fun trying to tell your agent the same thing for the fifth time with increasingly more insults, only for it to do it incorrectly again. It's like trying to make software with the help of the most autistic person alive. The models are getting better, but it's still pretty much the same thing. You design, then you iterate so many times with the agent until it finishes the work.
+
+You might think, "Well, iteration has always been part of the job," but back then iterations were meaningful; they were productive. Almost always, an iteration taught you something (even a tiny thing), but even if it didn't, it was still pure work. It was something that could even go into a behind-the-scenes book.
+
+Thomas Brush, a famous YouTuber and game developer, has talked about how for his latest game, Twisted Tower, he basically made his artist redo the work five times. The artist, Felipe Caravelli, said that he "created 5 different Twisted Towers." Notice how he talks about it. He didn't say, "I skipped time for four different variations." Even if those other four versions didn't make it to the store page, they were still Twisted Towers. They were still pure work, something to feel proud of. Even if you weren't proud of it, you'd still feel productive from progressing the game after a long day of work. It's only when you let go of your work that it hurts; letting go doesn't undo all the productivity you felt doing the work.
+
+But right now, you will literally waste time until you make it work. And it's not like you can learn anything from that interaction. It's not that once you waste five hours fixing a bug in your AI-coded software, you get to learn how to avoid or reduce it (which was not the case back then with programming). It's really damn hard to learn anything. Even if you get to improve your AI workflow, you can't measure it reliably, so you don't get to feel progress unless you're delusional or you test it for so long that the chances of it not being an improvement drop to near zero. Not to mention how little the progress would be anyway (which is not new, but this time the progress is the only thing that feels productive).
+
+You might think, How is it possible that it's both cognitively empty and heavy? The answer is that you make it so. When the agent is working, you're free to do what you want. This freedom causes distraction. You will feel bored, distracted, and ultimately tired if you keep waiting. Waiting itself is exhausting. So you have two options, depending on your situation:
+
+1. You do parallel work: firing up multiple agents and multiple projects, jumping from one agent to another. But multitasking is ultimately pretty exhausting in itself.
+2. Or work with AI on one project and work on a separate (maybe hobby) project on the side while the AI is working. This too has the multitasking issue. But depending on your project and field of expertise, it might be cognitively heavy as well. Your only hope is to choose a cognitively light job and do it on the side. You'd still feel tired multitasking, and you might still feel exhausted in the end for not being "productive" and solving five simple problems each day. It's possible to avoid these issues, but it's not doable for everyone. Especially if you're a programmer and your hobby projects are cognitively heavy too.
+
+So in the end, it seems like whatever you do makes you exhausted and burnt out. That's why most programmers who switched to AI development (regardless of their beliefs) have said that their work has become substantially less enjoyable. As GabeN said, it's becoming more and more like a service job.
+
+## How To Stay Productive
+
+One of the easiest ways to feel productive is to do code review. But it's not something everyone agrees on, and it's not something you'd feel productive doing if you do it lightly, as you tend to when AI generates thousands of lines of code each day. I also have my own issues with the argument that coding should be replaced by code review, for many reasons (explained in my book). But my opinion aside, since this topic is not even globally agreed upon, I'm going to ignore it for the sake of this article.
+
+### 1. Less Is More
+
+One of the most effective ways to navigate around the productivity problem is to do less work. I know it sounds... counterintuitive, but if you're constantly burning yourself out, your progress is not really proper progress. You might do more now, but over time, as you lose more and more energy, you will do much less work—so much less that it zeros out the positive effects and starts to make things a net negative for you.
+
+No one is chasing you! The world is moving fast; yes, you will have a hard time competing if you don't utilize AI; but if you step aside and take a look, you'll see that things are not going nearly as fast as Twitter makes you think. How many good games were released in 2026 compared to 2025? 2024? Is it really 10x, 100x, or more? Of course not. One might argue it has even slowed down. And outside of consumer software and mathematics, there's almost no sign of speeding up.
+
+I'm not saying that if you use AI you won't see any boost in speed. In fact, it can be extraordinary. But it definitely isn't something to risk your mental health for.
+
+The best way, IMO, to work with AI is to divide your job into smaller chunks; by smaller, I don't necessarily mean smaller in code size, but smaller in terms of the time it takes. Depending on how weak your model is, you have to make the chunks smaller and smaller. Why? Because:
+
+#### 1.1. More quality, less headache, faster development
+
+It increases the quality of your software, reduces your headaches, and most importantly, speeds up your work. The more granular you make the tasks, the more time you have to edit things before they go wrong. The reason behind this is a very well-known fact in software development that many juniors or non-programmers might not know: understanding and translating intent into code is the hardest part of the job. No matter the tools you use, you'd still face the same issues: not understanding what the manager wants, the manager not being articulate enough, the manager forgetting to tell you a tiny but important thing they wanted, the conflict between the computer's capabilities and your intents, the technical difficulties or impossibilities that only show up while you're working on the project, and so on.
+
+It's easy to think that once you design software, the rest is just mechanical work and the computer will do it perfectly—just like the waterfall method, which ultimately failed. In fact, with or without AI, most of your job is the iterations that you do. This is particularly why most AI benchmarks mean nothing and why there's a term called "bench-maxing": most benchmarks only test how good a model's output is if you one-shot a problem. They don't take into account that in the real world, most of the time you're struggling with constant change and blockage in intent, requirements, and technical features.
+
+Taking it slowly is an investment. Just recently I threw away 10 hours of AI work because it generated the work so badly that it was faster to throw away everything and start over than to try to fix the million problems it generated (death by a million cuts). This is another classic problem in software engineering. When problems pile up, at some point it becomes much easier to start over than to fix the current system, even if the system is very large.
+
+#### 1.2. You get to actually feel productive
+
+When you do things in small chunks, you get to see your progress. Little by little, you see the program evolve. But if you spend a whole day working on a prompt, give it to AI, wait for hours, and come back, even if the AI succeeded, you wouldn't feel like you've done it. It's not so different from asking someone to make the website for you. Your manager doesn't ask you to make the website because he wants to feel productive. Management itself doesn't feel productive either, referring back to that GabeN quote.
+
+If you do things in small parts, you can fix issues as they arise, feel a little bit more in touch with the software, and prevent future bites. With a proper mindset, you can feel productive to some degree. This is especially true since you would be putting substantially more time into the project and wouldn't get as distracted or bored waiting for the agent to finish.
+
+The first reason ("1. More quality, less headache, faster development") could be wrong to some degree depending on the model you choose. The stronger the model is, the more it will understand your requests and do the job at once; bigger tasks can be done without splitting. But if you rely so much on their intelligence, you'll get psychologically debuffed by all the boredom and lack of work, which would harm you in the long run, personally and financially.
+
+### 2. Adopt Determinism
+
+One of the things we took for granted before AI was how deterministic things were. Even if your code failed due to some dependency (some library you used had bugs), you could still rest assured that it was both fixable and addressable. You could go and fix the library yourself. You could rely on your compiler working because it was created and tested by real humans. You trusted many things because you trusted the people who made them.
+
+Now AI has made things much less certain, especially if you don't read the code either. The gap between high-risk and low-risk has been narrowed, which is very stressful when you're responsible. This causes both headaches and risk of failure. This is why you should adopt determinism.
+
+Try building deterministic workflows and scripts—things that work without AI. Unit tests are one of them. You can make sure something works because it works based on logic and rules, not next-word guesses. Any deterministic tool is superior to a nondeterministic one unless it is outperformed on cost.
+
+You can add this rule to your agent docs as well, but you should also try to be aware of the frictions in your workflow yourself. One of the most useful things you can do, for example, is build yourself an element picker for the website you're building with React (or any library that provides useful debug info in the local server). Instead of wasting your time explaining to the agent which exact element you want, you can just pick the element, copy its info, and give that to the agent. There are already tools out there that you can use, but since I am using the Pi agent, I made myself something that works regardless of the agent you use: [A Chrome extension](https://github.com/zmn-hamid/react-context-picker). And the most wonderful part is that agents themselves can create these tools for you; I didn't code this extension myself (It might not be perfect, but I only made it public because I wanted to mention it in this article. Otherwise, you can make it yourself using AI too.)
+
+Determinism is also the reason why it's strongly recommended that you learn the basics of `git` and `docker` as a developer. They save you a sea of headaches and risk.
+
+And regarding my agent, determinism is also the reason I chose Pi. I'm not saying it's objectively the best agent, but Pi aims to be stable and customizable, which is perfect for this mindset. When you update it, it doesn't randomly change the system prompts and stop working the same way. It's already pretty hard to rely on an AI workflow and find its shortcomings, let alone have it change every now and then. You need a stable workflow so that you can more clearly see how each change affects it. That's how you can see your improvements; this is how you can market yourself instead of having to have a massive résumé just for an entry-level job.
+
+### 3. Balance Your Life
+
+It sounds generic, but we all know it's important. It's easy to forget you have a life, especially since your new workflow feels unproductive, so you tend to put more time into it to compensate. But if you ruin your life balance, it will ultimately sink your productivity. You need to take it easy on yourself.
+
+In "Less Is More," I explained how splitting work into small chunks can help you feel productive; it comes in handy here as well. One of the problems with AI development is that, as I explained, it is cognitively empty. You make a perfect long prompt—maybe even spend an hour on it—but you end up waiting the whole day for the agent to do the work. It might not even do it correctly at the end of the day. It's extremely demoralizing. The distraction between sessions makes you waste your time on social media or whatever until it finishes the work. That's why splitting work into small chunks, whether or not your agent can handle more, is necessary. In the age of AI, where everything is multiplied, you have to pull the lever yourself and slow down manually. It feels wrong to manually slow yourself down, and it might also seem wrong to your employer (which sucks if they don't listen to reason), but it's necessary if you intend to do this job for long and not quit midway after numerous burnouts.
+
+Try preparing things for yourself to do while the agent is working. Always be conscious of your desire to get distracted by social media. Instead, buy or download some books, save some helpful videos, or maybe even start writing blogs. You can do these things while the agent is working. But you can also do non-work things. Maybe you can draw, read novels, solve sudoku, or do whatever you like. Non-work options could also be exceptionally suitable for the small-chunk method of working: since you already do a lot of work, you can just try doing the things you like on the side, hopefully.
+
+### 4. Change Your Mindset
+
+It's easier said than done, but you should also try to be aware of your thoughts. Even if you're forced to create software this way, you can still have a proper mindset that doesn't limit you or risk your mental health.
+
+Let me give you an example: I myself believe that this new workflow of software development is almost entirely "operational." You're an operator who knows how to work with the AI agent. You're not a real engineer. You can be, but this workflow doesn't make you one. When we say "anyone can do this," we don't mean "a random stranger can do this with no prior experience." We mean "there's little to no cognitive demand for doing this job; therefore, anyone who puts some time into it will be able to do it." It's like being the operator of a skincare machine. If you randomly assign a stranger to your job, they will definitely fail miserably because they don't know many things about that complicated machine. But learning how to work with it doesn't require brainpower. You just have to memorize some info and try not to forget it. That's why such operations can be easily replaced by the machine. I don't mean that your job as an AI developer is replaceable by the machine; what I'm implying is that if your job is not replaceable by a machine, then you must agree that this new workflow is automating a job that shouldn't be automated.
+
+As you can see, I can even prove to myself why the job I'm doing is nothing special and looks cheap to me. But should I let that get in my way? Of course not. Think of those operators yourself. Think of other people, such as security guards. Most security guards don't do anything most of the day, because their job is to wait for something to happen and act upon it, not to actively do something. Their job is deliberately empty of action and productivity. Yet there are many of them who can handle this job and not burn out. How do you think people who don't value their jobs manage their mental health? If they can, you absolutely can too. You just need to change your mindset. Don't always tell yourself "this is trivial and unimportant." Respect your effort, and remember that even the most mundane jobs are necessary for society. "Anyone can do this" is not an excuse to disrespect a job. Whether or not to get paid for that job is a different matter, but all jobs are valuable if they serve a positive purpose for society (and your job is definitely one of those, even if it's suboptimal).
+
+### 5. Become More Articulate
+
+The thing is, the abstraction layer is now human language. As I explained, the hardest part of software development has always been translating intent into code. Your desire (feelings, inner thoughts) should translate into clearer thoughts, and those thoughts should translate into words in a specific language; the worse those words are, the worse your agent might behave.
+
+The less ambiguous you are in turning your thoughts into words and the more precisely you explain what you want, the better your agent understands your desire. It's the same with humans too. You can't say "build me a website to sell my shirts" and expect the agent or a human to magically understand your taste or true desires.
+
+When working with humans, they will notice this ambiguity and relentlessly ask you for clarification. You should make the agent do the same with you as well; that's why a `grill me`-like skill would be a nice addition to your toolset. You must realize that even if you're a programmer and you *think* you know all the details, you can't possibly name them all in one prompt and one-shot the whole thing. The only way you can one-shot a medium project is to not hold any values and just seek some generic slop goal. If your project is more than that (which is almost always the case with real projects), you should first make the agent reach some common ground with you.
+
+Dividing work into chunks also helps with this, because, as I mentioned, the waterfall method never works correctly, and a rather big chunk of your intents remains hidden until you start working on the project and suddenly realize you forgot something big or small. There's a great paper by Margaret-Anne Storey called "[From Technical Debt to Cognitive and Intent Debt: Rethinking Software Health in the Age of AI](https://arxiv.org/abs/2603.22106)." This paper shows very clearly how there are three different aspects of software that all should be refined to the smallest detail if you want the waterfall method to work. It's far easier (and more cost-effective) to do the job incrementally.
+
+### 6. `AGENTS.md` Is Overrated
+
+I used this clickbait title because it's not clickbait. I don't use `AGENTS.md` at all. I think the current workflows of agentic systems are a little bit stupid when it comes to documentation. I have come up with a new solution: `.agents/docs/`
+
+You put any documentation you have in separate Markdown files under `.agents/docs/`, then load them all into the context at session startup (using a custom extension/plugin). This way, you can respect decoupling and separation of concerns. For example, these are the separate agent docs that I have in one of my projects:
+- `design-guidance/` — UI, motion, accessibility, and design-verification principles.
+- `deterministic-workflows/` — How to choose, build, and verify repeatable automation (based on the concept in "Adopt Determinism")
+- `documentation/` — Guidance for clear code comments and repository documentation
+- `git/` — Local Git boundaries and commit conventions
+- `tooling/` — Available development tools, their limits, and validation rules (I have limited the tools that my agent can call for security reasons)
+- `working-agreement/` — Shared collaboration, safety, and completion expectations
+- `working-agreement/confirmed-lessons.md` — Verified implementation lessons to prevent regressions
+- `working-agreement/learning-from-fixes.md` — When and how to record lessons from completed fixes
+
+This way you don't need to worry about forgetting to add something to `AGENTS.md` and having to search the entire file for some minor concept.
+
+One thing that I like about this is how easily you can add and replace docs. I hope this method becomes popular, because the only way we can grow as a community is to make it easier to install and use premade tools and instructions that have proven helpful for most people. I'm sure someone else can write better `deterministic-workflows` documentation than me, but I can't find it because it's buried inside huge unreadable `AGENTS.md` files.
+
+One caveat, though, is that if you don't actually read the files, you might not realize that some of the docs have silently become dependent on the specific project. For example, it's easy for agents to add info about your project and its name to the `git` docs. That way, you can't just drag and drop them into other projects (this is yet another issue caused by our nondeterministic workflow). If you don't want that, you have to at least make it clear to the agent that, for those specific agent docs, it should make them as generic and project-agnostic as possible. It's not always possible, though. For example, your commit rules can be specific to your project. But you can always separate those into new Markdown files, which is the classic way of decoupling and modularization.
+
+### 7. Skills Are Overrated
+
+Skills are useful, don't get me wrong. But the lack of decoupling in current agentic workflows has made us put many things in the skills folder when they really shouldn't be skills.
+
+For example, the `design-guidance` folder that I explained in "`AGENTS.md` Is Overrated" is actually a set of design skills by Emil Kowalski, aggregated into a set of Markdown instructions. It's not useless to put design guidance into skills, but usually we need the agent to already know all the rules before designing something. When you turn them into skills, you're forced to create the necessary triggers for them, which means that in this case you can only use them for cleanup after the mess is created, if that even works perfectly.
+
+And my problem with skills is not just that most of them should be docs, but that most of them are not even good. There's a fundamental issue with AI development: it's really hard to measure the quality of your workflow (the same reason it's hard to measure your productivity as a manager). When you add a new skill, you can't really assess how good that skill has been. Even the most praised skills can be harmful.
+
+For example, one of the most famous skills is called Ponytail, and its GitHub description says, "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote." In case it's not obvious, no one has **proved** that "The best code is the code you never wrote." Of course, some people believe that, but some people don't. Even among the best programmers, there are always dilemmas about whether a specific practice is actually good. Even for the smallest things, such as comments, there can be so much difference of opinion. Uncle Bob believes comments are evil necessities; John Ousterhout believes comments are good and useful parts of any good code. "Best practices" aren't god-sent laws.
+
+And even if a practice is considered objectively good, that doesn't mean it always is; it usually depends. The most performant code is not the most maintainable code. In fact, it can be the exact opposite. If you want the most performant code, you have to write the code in 0s and 1s, or at least in Assembly. And it's the worst practice ever to create a website using Assembly in 2026.
+
+Now Ponytail is not only enforcing this low-code mentality but also promoting a lazy senior. Words are strong; they shouldn't be taken lightly. This is why I said you should be articulate. Sometimes a single word can ruin the way the agent thinks, because it's the same with humans too. You don't notice it, but there are tons of misunderstandings happening every day, even with our closest people. It's really hard to translate your thoughts into words and have the other person perceive those words exactly the same way you perceive them. Most of the time, the reason people understand what you mean is that they have lived with you. They have a massive set of context from you; that's how they can understand you even from the faintest of signals. But each time you fire up a new agent, it has to fill its tiny context with the default things—as if you fire your programmer every day and hire a new one the next day to work on your project.
+
+Ponytail is the exact reason I failed once. I gave my agent the image of a page's UX design and asked it to implement it exactly as in the image. After multiple struggles between us, instead of writing the code, it injected the image itself into the browser. I was surprised at first by how accurate the design looked, but then realized it was just the image itself :D Now I don't blame it entirely on Ponytail, but when you promote laziness, you shouldn't be surprised to receive laziness. Even the laziest senior locks in from time to time.
+
+So in the end, you have added a ton of skills, you haven't managed or read any of them, and they're controlling your project in a way you don't understand. How are you supposed to feel productive when you've given up this much of your agency? Even if you want to make skills, make sure you know exactly what's in them. Don't blindly add anything. Models are becoming better and better every day. Skills opinionate them; avoid skills unless necessary. And if you want to add anything, do it gradually so you can measure the output, at least a little bit more, before you add a hundred more skills and lose track of which one is undermining your workflow. Not to mention they can be contradictory, and depending on which skill the agent reads at the time, it will behave differently, and you will be left confused as to why you suddenly failed to do a task and start questioning your prompt and everything because you have no way of tracing the issue.
+
+Skills can be quite useful for storing "specific unrelated workflows," but most of the time, you're better off putting the data in documentation. Also, always make sure you understand the skill you're adding. Every word matters, but even if you're not reading it all, at least understand everything it explains.
+
+### 8. Start Your Own Project
+
+Start some side project, hobby or non-hobby, and try creating the things you like. It doesn't necessarily have to be something big. Even a simple blog or an article like this can be good. Just don't waste your time. The whole premise of AI is that you would have more free time. Don't overwork yourself just because you can work 5x or 10x faster now. FOMO is a very common and dangerous thing in our lives right now; you have to be self-aware of what's motivating you.
+
+And it's not like this is something new. Side projects have always been one of the most useful things people did to be able to bear their lives and tedious jobs. I saw a video a long time ago from a 2016 seminar where Marc Brunet and Fausto de Martini talked about "Building your career in the industry." Listening to them say how they got into the industry and became some of the GOATs is something that would make you feel jealous. You might have thought this was the dream job they had. And it probably was too. But both of them mentioned how brutal and soulless the work environment was, even at the peak of the industry in terms of art. And this is not the only example I have. Trent Kaniuga, Tyler Edlin, and many more also talk about this. Marc was explaining something along these lines: "What kept me going was that I knew when I came home, I could relax and paint for myself, doing my own side project." Later he explained how these side projects went into his portfolio and helped him find even better job offers.
+
+I get it; it's not easy to find the time to do these things, especially if your hobby is cognitively demanding. There's no one-size-fits-all, and I'm struggling so much with this too (it's been a month since I wanted to start my hobby game project), but try your best, and if you can, consider lowering your work hours. Leave five hours a week for yourself; that's enough to keep your project going. It should be better than nothing to motivate you to do your boring job so that you can get money and create what YOU want.
+
+### 9. Embrace Culture
+
+In the end, what I suggest to everyone is to embrace culture as much as you can. Read books, listen to music, watch movies, play games, have some artistic endeavor, dress well, decorate your house or room—just do something. Culture (and art) is what keeps us alive as a society. Even if we fail to do it properly, it continues to exist and feed us via memes and word of mouth. It's almost in our DNA right now. Even going out and communicating with other people could be part of it.
+
+Build your own obsession too. It's not always given (one could argue it's never given). You have to build your own obsessive activities. Get really deep into something, and you'll find yourself becoming more interesting by the day, and you'll find people whose company you enjoy more because you have more to talk to them about, more to connect over.
+
+These may not be related to your job, but they are essential if you want to endure it. A job is for money in the end; you're not supposed to make your job interesting. The rest of your life is what you're responsible for. Define yourself outside of your work, or you'll rot away with the market.
