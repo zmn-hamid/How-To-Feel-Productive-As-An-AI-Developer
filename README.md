@@ -6,7 +6,7 @@ If you've ever felt exhausted after a day of "managing" an agent, or unproductiv
 
 The article covers the psychological and the practical techniques I've found that helped me immesnsly with my journey. I'd be glad to know your opinion and techniques dealing with these issues. I'd probably add them to the list too if I can confidently tell them to other people. So please feel free to email me or open a discussion / issue here.
 
-The English version is [here](#how-to-feel-productive-as-an-ai-developer).  
+The English version: [How To Feel Productive As An AI Developer.md](#how-to-feel-productive-as-an-ai-developer)  
 The Farsi version: Not ready yet
 
 ---
