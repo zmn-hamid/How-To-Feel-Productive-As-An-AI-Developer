@@ -1,3 +1,5 @@
+# How To Feel Productive As An AI Developer
+
 For various reasons, many of us developers have decided to delegate all coding to AI. Some believe it's the ultimate best thing to do, some are skeptical, and some even disagree with it but are ultimately forced to do so (by the market, the manager, etc.).
 
 Whether or not this new workflow is good is another matter. Personally, I'm close to the third type of developer. I don't think it's quite wise to delegate all coding to AI, and I've written a [whole book](https://genai-book.kyrovert.com/) about it, but I'm not that strict either. I am flexible about change, and due to many reasons, I had to commit to AI development and delegate all coding (and even reading) to AI. For personal projects, I most likely won't do that.
