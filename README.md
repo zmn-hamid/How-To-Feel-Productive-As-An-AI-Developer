@@ -8,6 +8,7 @@ The article covers the psychological and the practical techniques I've found tha
 
 The English version: [How To Feel Productive As An AI Developer.md](#how-to-feel-productive-as-an-ai-developer)  
 The Farsi version: [چطور به‌عنوان یک توسعه‌دهندهٔ هوش مصنوعی احساس مفیدبودن کنیم](چطور%20به‌عنوان%20یک%20توسعه‌دهندهٔ%20هوش%20مصنوعی%20احساس%20مفیدبودن%20کنیم.md)
+The Spanish version: [Cómo sentirse productivo como desarrollador de IA](<Cómo sentirse productivo como desarrollador de IA.md>)
 
 ---
 
