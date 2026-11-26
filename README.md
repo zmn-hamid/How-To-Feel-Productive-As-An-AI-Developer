@@ -11,6 +11,8 @@ The Farsi version: [چطور به‌عنوان یک توسعه‌دهندهٔ ه
 The Spanish version: [Cómo sentirse productivo como desarrollador de IA](<Cómo sentirse productivo como desarrollador de IA.md>)  
 The French version: [Comment se sentir productif en tant que développeur avec l’IA](<Comment se sentir productif en tant que développeur avec l’IA.md>)
 
+Contact if you want another language.
+
 ---
 
 My email: hamid80zamanian@gmail.com  
